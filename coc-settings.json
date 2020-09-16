@@ -1,0 +1,62 @@
+{
+  // suggestions
+  // "suggest.echodocSupport": true,
+  // TODO add more labels and give them cool glyphs
+  "suggest.completionItemKindLabels": {
+    "text": "t",
+    "method": "m",
+    "function": ""
+  },
+
+  // list
+  "list.indicator": ">",
+  "list.selectedSignText": " ",
+
+  // autoformat
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "graphql",
+    "html",
+    "yaml",
+    "json",
+    "python",
+    "java"
+  ],
+  "coc.preferences.hoverTarget": "float",
+
+  // python config
+  "python.formatting.provider": "black",
+  "python.linting.pylintEnabled": true,
+  "python.linting.flake8Enabled": false,
+  "python.linting.enabled": true,
+  "python.pythonPath": "/Users/aarnav/.pyenv/versions/venv/bin/python",
+  "python.venvPath": "/Users/aarnav/.pyenv/versions",
+
+  // snippets
+  "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
+  //"snippets.userSnippetsDirectory": "~/.config/nvim/snips",
+
+  // emmet
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+
+  // explorer
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.icon.enableVimDevicons": false,
+  "explorer.keyMappings": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  },
+
+  //coc-emoji
+  "coc.source.emoji.filetypes": ["markdown"]
+
+  // TODO b:coc_suggest_disable=1 GOYO
+  // TODO add to paths.vim g:coc_node_path
+}
